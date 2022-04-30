@@ -8,5 +8,11 @@ while chance > 0:
 		break
 	else:
 		chance-=1
-		print('密碼錯誤! 還有 ', chance, ' 次機會')
+		print('密碼錯誤!')
+		if chance > 0:
+			print('還有', chance, '次機會')
+		else:
+			break
+			
+
 
